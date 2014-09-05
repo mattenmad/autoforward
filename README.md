@@ -1,4 +1,4 @@
 AutoForward
 ===========
 
-jQuery AutoForward
+jQuery AutoForward Plugin
