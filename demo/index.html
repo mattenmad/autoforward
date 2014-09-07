@@ -21,7 +21,7 @@
     <div class="container">
       <div class="autoforward-example">
         <h1>jQuery AutoForward</h1>
-        <a href="http://www.google.com" target="_blank" class="autoforward">www.google.com</a>
+        <a href="http://www.google.com/" title="Google" target="_blank" class="autoforward">www.google.com</a>
       </div>
     </div><!-- /.container -->
 
@@ -36,7 +36,8 @@
     <script type="text/javascript">
       $(document).ready(function() {
         $('.autoforward').autoforward({
-          target: '_blank'
+          target: '_blank',
+          timer: 10
         })
       })
     </script>
