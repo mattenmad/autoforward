@@ -6,7 +6,7 @@ $.fn.extend({
   autoforward: function(options) {
     var log, settings;
     settings = {
-      target: '_blank',
+      target: '_self',
       timer: 5,
       debug: false
     };
